@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emir Zepeda | Ingeniero de Software Full Stack & Móvil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* Tipografía más moderna y técnica */
+        body { font-family: 'Outfit', sans-serif; }
+        
+        /* Fondo con patrón de circuito sutil */
+        .bg-circuit {
+            background-color: #020617;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%231e293b' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        /* Badges de tecnología mejorados */
+        .tech-badge { @apply px-3 py-1 text-xs font-semibold rounded-md bg-slate-800/80 text-blue-300 border border-blue-900/30 hover:border-blue-500 transition cursor-default backdrop-blur-sm; }
+        
+        /* Efecto de cristal para las tarjetas */
+        .glass-card { @apply bg-slate-900/60 backdrop-blur-xl border border-slate-800 hover:border-blue-500/50 transition-all duration-300; }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            accent: '#3b82f6', // Azul eléctrico
+                            dark: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-circuit text-slate-300 antialiased selection:bg-blue-500/30 selection:text-white">
+
+    <nav class="fixed w-full z-50 top-0 start-0 bg-slate-950/70 backdrop-blur-md border-b border-slate-800/50 supports-[backdrop-filter]:bg-slate-950/60">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-2 group">
+                <div class="w-10 h-10 bg-gradient-to-tr from-blue-600 to-cyan-500 rounded-xl flex items-center justify-center text-white font-extrabold text-xl shadow-lg shadow-blue-500/20 group-hover:shadow-blue-500/40 transition">E</div>
+                <span class="self-center text-xl font-bold whitespace-nowrap text-white tracking-tight">Emir<span class="text-blue-500">.Dev</span></span>
+            </a>
+            
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-gray-800 focus:outline-none">
+                <span class="sr-only">Abrir menú</span>
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                    <li><a href="#inicio" class="block py-2 px-3 text-white hover:text-blue-400 md:p-0 transition">Inicio</a></li>
+                    <li><a href="#proyectos" class="block py-2 px-3 text-slate-400 hover:text-blue-400 md:p-0 transition">Portafolio</a></li>
+                    <li><a href="#stack" class="block py-2 px-3 text-slate-400 hover:text-blue-400 md:p-0 transition">Stack Técnico</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden px-4">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full filter blur-[128px] -z-10 animate-pulse"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-600/10 rounded-full filter blur-[128px] -z-10"></div>
+        
+        <div class="max-w-screen-lg mx-auto text-center relative z-10">
+            <div class="inline-flex items-center space-x-2 bg-slate-800/80 backdrop-blur-md px-4 py-2 rounded-full border border-slate-700 mb-8">
+                <span class="relative flex h-3 w-3">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                </span>
+                <span class="text-sm font-medium text-slate-200">Disponible para nuevos retos</span>
+            </div>
+
+            <h1 class="mb-6 text-5xl font-extrabold tracking-tight leading-tight text-white md:text-7xl">
+                Ingeniero de Software<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-500 animate-gradient-x">
+                    Full Stack & Mobile
+                </span>
+            </h1>
+            <p class="mb-10 text-lg font-normal text-slate-400 md:text-2xl max-w-3xl mx-auto leading-relaxed">
+                Especializado en construir ecosistemas digitales robustos. Desde backends escalables en <strong>.NET y Java</strong>, hasta experiencias móviles nativas en <strong>Android</strong>. Transformo requerimientos complejos en código limpio.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-5 mb-12">
+                <a href="cv.pdf" download class="group inline-flex justify-center items-center py-4 px-8 text-base font-bold text-white rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 shadow-lg shadow-blue-500/25 transition-all transform hover:scale-105">
+                    <i class="fas fa-file-download mr-3 group-hover:animate-bounce"></i>
+                    Descargar CV Profesional
+                </a>
+                <a href="https://github.com/EmirZepeda" target="_blank" class="inline-flex justify-center items-center py-4 px-8 text-base font-bold text-white rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-slate-500 transition-all transform hover:scale-105">
+                    <i class="fab fa-github mr-3 text-xl"></i>
+                    Ver Código en GitHub
+                </a>
+            </div>
+
+            <div class="flex justify-center items-center gap-8 text-slate-500">
+                <a href="https://mx.indeed.com/" target="_blank" class="hover:text-white transition flex items-center gap-2 group">
+                    <i class="fas fa-briefcase group-hover:text-blue-400 transition"></i> Indeed
+                </a>
+                <span class="text-slate-700">|</span>
+                <a href="mailto:zepedaaa888@gmail.com" class="hover:text-white transition flex items-center gap-2 group">
+                    <i class="fas fa-envelope group-hover:text-blue-400 transition"></i> zepedaaa888@gmail.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="py-32 relative z-10">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-20 md:text-center">
+                <span class="text-blue-500 font-bold tracking-wider uppercase text-sm mb-2 block">Portafolio Destacado</span>
+                <h2 class="text-4xl font-extrabold text-white sm:text-5xl">Ingeniería aplicada a productos reales</h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
+                <div class="glass-card rounded-2xl p-8 group hover:-translate-y-2">
+                    <div class="flex items-center justify-between mb-8">
+                        <div class="p-4 bg-green-900/30 rounded-2xl text-green-500 shadow-lg shadow-green-900/20 group-hover:shadow-green-500/40 transition-all duration-500">
+                            <i class="fab fa-android text-5xl"></i>
+                        </div>
+                        <a href="https://github.com/EmirZepeda/Android" target="_blank" class="text-slate-400 hover:text-white bg-slate-800 p-3 rounded-full transition">
+                            <i class="fas fa-external-link-alt text-lg"></i>
+                        </a>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition">Ecosistema Android</h3>
+                    <p class="text-slate-400 mb-6 leading-relaxed">
+                        Suite de aplicaciones nativas que resuelven problemas en múltiples dispositivos. Incluye 'Wallify' (productividad), interfaces para <strong>Wear OS</strong> y adaptaciones para <strong>Smart TV</strong>, manejando la fragmentación del ecosistema.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tech-badge">Kotlin</span>
+                        <span class="tech-badge">Java Nativo</span>
+                        <span class="tech-badge">Wear OS API</span>
+                        <span class="tech-badge">Android TV</span>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl p-8 group hover:-translate-y-2">
+                    <div class="flex items-center justify-between mb-8">
+                        <div class="p-4 bg-purple-900/30 rounded-2xl text-purple-500 shadow-lg shadow-purple-900/20 group-hover:shadow-purple-500/40 transition-all duration-500">
+                            <i class="fab fa-windows text-5xl"></i>
+                        </div>
+                        <a href="https://github.com/EmirZepeda/juguetes_.NET" target="_blank" class="text-slate-400 hover:text-white bg-slate-800 p-3 rounded-full transition">
+                            <i class="fas fa-external-link-alt text-lg"></i>
+                        </a>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition">Plataforma E-commerce .NET</h3>
+                    <p class="text-slate-400 mb-6 leading-relaxed">
+                        Sistema robusto de ventas en línea. Arquitectura MVC completa con gestión de inventario, autenticación de usuarios y conexión a <strong>SQL Server</strong>. Demostración de desarrollo empresarial full stack en Microsoft.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tech-badge">C# / ASP.NET</span>
+                        <span class="tech-badge">SQL Server</span>
+                        <span class="tech-badge">Entity Framework</span>
+                        <span class="tech-badge">MVC Pattern</span>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl p-8 group hover:-translate-y-2">
+                    <div class="flex items-center justify-between mb-8">
+                        <div class="p-4 bg-blue-900/30 rounded-2xl text-blue-500 shadow-lg shadow-blue-900/20 group-hover:shadow-blue-500/40 transition-all duration-500">
+                            <i class="fas fa-mobile-alt text-5xl"></i>
+                        </div>
+                        <a href="https://github.com/EmirZepeda/PWA" target="_blank" class="text-slate-400 hover:text-white bg-slate-800 p-3 rounded-full transition">
+                            <i class="fas fa-external-link-alt text-lg"></i>
+                        </a>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition">App Móvil Híbrida (PWA)</h3>
+                    <p class="text-slate-400 mb-6 leading-relaxed">
+                        Aplicación web progresiva enfocada en rendimiento y experiencia de usuario. Implementa <strong>Service Workers</strong> para funcionalidad <strong>Offline-First</strong> y sincronización de datos locales, indistinguible de una nativa.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tech-badge">JavaScript Moderno</span>
+                        <span class="tech-badge">Service Workers</span>
+                        <span class="tech-badge">IndexedDB / LocalStorage</span>
+                        <span class="tech-badge">Offline-First</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="stack" class="py-24 relative z-10 bg-slate-950/50">
+        <div class="max-w-screen-xl mx-auto px-4 text-center mb-16">
+            <span class="text-blue-500 font-bold tracking-wider uppercase text-sm mb-2 block">Arsenal Tecnológico</span>
+            <h2 class="text-4xl font-extrabold text-white">Dominio del Stack Completo</h2>
+        </div>
+        
+        <div class="max-w-screen-xl mx-auto px-4 grid gap-8 md:grid-cols-3">
+            <div class="glass-card p-8 rounded-2xl hover:-translate-y-1 transition-transform">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="p-3 bg-blue-900/30 rounded-lg text-blue-400"><i class="fas fa-server text-2xl"></i></div>
+                    <h3 class="text-xl font-bold text-white">Backend & Core</h3>
+                </div>
+                <ul class="space-y-4">
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fab fa-windows mr-2 text-purple-500"></i> C# .NET (ASP.NET)</span>
+                        <span class="text-xs bg-purple-900/30 text-purple-300 px-2 py-1 rounded-full">Avanzado</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fab fa-java mr-2 text-orange-500"></i> Java (Spring Boot)</span>
+                        <span class="text-xs bg-orange-900/30 text-orange-300 px-2 py-1 rounded-full">Sólido</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fab fa-php mr-2 text-indigo-400"></i> PHP Moderno</span>
+                        <span class="text-xs bg-indigo-900/30 text-indigo-300 px-2 py-1 rounded-full">Intermedio</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fas fa-database mr-2 text-slate-400"></i> SQL (MSSQL/MySQL)</span>
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded-full">Sólido</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="glass-card p-8 rounded-2xl hover:-translate-y-1 transition-transform">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="p-3 bg-green-900/30 rounded-lg text-green-400"><i class="fas fa-mobile-screen text-2xl"></i></div>
+                    <h3 class="text-xl font-bold text-white">Móvil & Frontend</h3>
+                </div>
+                <ul class="space-y-4">
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fab fa-android mr-2 text-green-500"></i> Android Nativo (Kotlin)</span>
+                        <span class="text-xs bg-green-900/30 text-green-300 px-2 py-1 rounded-full">Avanzado</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fab fa-js mr-2 text-yellow-400"></i> TypeScript / JavaScript</span>
+                        <span class="text-xs bg-yellow-900/30 text-yellow-300 px-2 py-1 rounded-full">Sólido</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fas fa-cloud mr-2 text-blue-400"></i> PWA (Service Workers)</span>
+                        <span class="text-xs bg-blue-900/30 text-blue-300 px-2 py-1 rounded-full">Especialista</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fab fa-html5 mr-2 text-orange-600"></i> HTML5 & Tailwind CSS</span>
+                        <span class="text-xs bg-orange-900/30 text-orange-300 px-2 py-1 rounded-full">Sólido</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="glass-card p-8 rounded-2xl hover:-translate-y-1 transition-transform">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="p-3 bg-yellow-900/30 rounded-lg text-yellow-400"><i class="fas fa-cloud-upload-alt text-2xl"></i></div>
+                    <h3 class="text-xl font-bold text-white">Cloud & Herramientas</h3>
+                </div>
+                <ul class="space-y-4">
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fab fa-aws mr-2 text-yellow-500"></i> AWS Cloud</span>
+                        <span class="text-xs bg-yellow-900/30 text-yellow-300 px-2 py-1 rounded-full">Intermedio</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fab fa-google mr-2 text-red-500"></i> Google Cloud Platform</span>
+                        <span class="text-xs bg-red-900/30 text-red-300 px-2 py-1 rounded-full">Básico</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fab fa-git-alt mr-2 text-orange-500"></i> Git & GitHub Flow</span>
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded-full">Diario</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <span class="font-medium flex items-center"><i class="fab fa-python mr-2 text-blue-400"></i> Python (Datos)</span>
+                        <span class="text-xs bg-blue-900/30 text-blue-300 px-2 py-1 rounded-full">Básico</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-slate-950 py-16 border-t border-slate-900 relative z-10">
+        <div class="max-w-screen-xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-white mb-8">¿Listo para potenciar tu equipo de desarrollo?</h2>
+            <p class="text-slate-400 mb-10 max-w-xl mx-auto">Estoy disponible para roles Full Stack o Móviles que requieran soluciones técnicas sólidas y escalables.</p>
+            
+            <div class="flex justify-center gap-6 mb-12">
+                <a href="mailto:zepedaaa888@gmail.com" class="group bg-slate-900/80 p-5 rounded-2xl border border-slate-800 hover:border-blue-500 hover:bg-blue-900/20 transition-all duration-300">
+                    <i class="fas fa-envelope text-2xl text-slate-400 group-hover:text-blue-400"></i>
+                </a>
+                <a href="https://github.com/EmirZepeda" target="_blank" class="group bg-slate-900/80 p-5 rounded-2xl border border-slate-800 hover:border-slate-400 hover:bg-slate-800 transition-all duration-300">
+                    <i class="fab fa-github text-2xl text-slate-400 group-hover:text-white"></i>
+                </a>
+                <a href="https://linkedin.com/in/" target="_blank" class="group bg-slate-900/80 p-5 rounded-2xl border border-slate-800 hover:border-[#0077B5] hover:bg-[#0077B5]/20 transition-all duration-300">
+                    <i class="fab fa-linkedin-in text-2xl text-slate-400 group-hover:text-[#0077B5]"></i>
+                </a>
+            </div>
+            <p class="text-slate-600 text-sm">© 2025 Emir Zepeda. Ingeniería y Diseño.</p>
+        </div>
+    </footer>
+
+    <script>
+        const toggleButton = document.querySelector('[data-collapse-toggle="navbar-default"]');
+        const navbarMenu = document.getElementById('navbar-default');
+        toggleButton.addEventListener('click', () => {
+            navbarMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
